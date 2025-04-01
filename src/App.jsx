@@ -2,13 +2,16 @@ import React from 'react'
 import InputComponent from './components/InputComponent'
 import RotateComponent from './components/RotateComponent'
 import Carousel from './components/Carousel'
+import PopUp from './components/PopUp'
+import Sample from './components/Sample'
 
 const App = () => {
   return (
     <div>
       {/* <InputComponent />
-      <RotateComponent /> */}
-      <Carousel />
+      <RotateComponent />
+      <Carousel /> */}
+      <PopUp />
     </div>
   )
 }
